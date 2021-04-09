@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+  }
+body{
+    font-family: 'Raleway', sans-serif;
+}
+/*Styling main page where admin or a student get into the system*/
+.container, .container2, .container3, .container4{
+    background-image: url(images/Library\ Sample.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.col1 .btn{
+    text-align: center;
+    display: inline-flex;
+    background: #373a37;
+    color: #fff;
+    padding: 50px 80px;
+    margin: 30px;
+    margin-top: 12%;
+    margin-left: 40%;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.col2 .btn{
+    display: inline-block;
+    background: #373a37;
+    color: #fff;
+    padding: 50px 80px;
+    margin: 30px;
+    margin-top: 2%;
+    margin-left: 40%;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.btn:hover{
+    background: #808080;
+}
+
+/*ADMIN PAGE*/
+.row1{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    margin-top: 17%;
+    box-shadow: 0 0 10px 0px rgba(90, 88, 88, 0.1);
+}
+.h1{
+    text-decoration: underline;
+    color: rgb(13, 188, 219);
+    font-family: cursive ;
+    margin-left: 24%;
+    font-size: 60px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px #000000;
+}
+.row1 .msg1{
+    color: rgb(13, 188, 219);
+    flex-basis: auto;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 5%;
+    text-shadow: 2px 2px 4px #000000;
+}
+.row1 .btn{
+    font-size: large;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*Student Page*/
+
+.container3 .row3{
+    display: inline-block;
+    margin-left: 30%;
+    margin-top: 10%;
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(13, 188, 219);
+    text-shadow: 2px 2px 4px #000000;
+}
+.container3 .p2{
+    display: list-item;
+
+}
+.container3 .row3 .btn{
+    font-size: 30px;
+    border-radius: 10px;
+}
+.p1{
+    padding: 10px;
+}
+.p2{
+    padding: 10px;
+    margin-top: 5px;
+}
+.p1, .p2{
+    height: 40px;
+    width: 30%;
+    border-radius: 20px;
+}
+
+/*Navigation Bar*/
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    background-color: rgb(105, 109, 105);
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    font-weight: bolder;
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
