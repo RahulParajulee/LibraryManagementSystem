@@ -10,7 +10,7 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 /*Styling main page where admin or a student get into the system*/
-.container, .container2, .container3, .container4, .container5{
+.container, .container2, .container3, .container4, .container5, .container0{
     background-image: url(images/Library\ 2.jpg);
     height: 100%;
     background-position: center;
@@ -74,15 +74,18 @@ body{
 
 /*ADMIN PAGE*/
 .row1{
-    width: 300px;
-    height: 200px;
+    width: 350px;
+    height: 300px;
     position: relative;
     text-align: center;
-    padding: 40px 20px 10px 10px;
+    padding: 20px;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 5%;
+    border-radius: 40px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(150, 213, 216) 0%, rgba(36,152,176,1));
     box-shadow: 0 0 10px 0px rgba(255, 254, 254, 0.884);
 }
+
 .h1{
     text-decoration: underline;
     color: rgb(0, 122, 126);
@@ -93,7 +96,7 @@ body{
     text-shadow: 2px 2px 4px #000000;
 }
 .row1 .msg1{
-    color: rgb(0, 122, 126);
+    color: rgb(195, 214, 214);
     flex-basis: auto;
     font-weight: bolder;
     font-size: 30px;
@@ -101,9 +104,17 @@ body{
     text-shadow: 2px 2px 4px #000000;
 }
 .row1 .btn{
-    font-size: large;
-    border-radius: 10px;
+    font-size: 25px;
+    border-radius: 7px;
     cursor: pointer;
+}
+.adm{
+    padding: 5px;
+}
+
+.adm1{
+    height: 40px;
+    width: 300px;
 }
 
 /*Student Page*/
@@ -150,6 +161,10 @@ form input{
     padding: 0 10px;
     border: 1px solid #ccc;
 }
+.lgbtn, .rgbtn{
+    border-radius: 25px;
+}
+
 form .btn{
     width: 100%;
     border: none;
@@ -206,7 +221,6 @@ nav ul li{
 
 
 
-/*--------------------Student Page-----------------------
 .account-page{
     padding: 50px 0;
     background: radial-gradient(#ffd89b, #19547b);
@@ -278,20 +292,20 @@ form a{
 
 /*Student Login/Register Page*/
 
-
-
+.containerr{
+    display: flex;
+}
 
 section {
     position: relative;
-    min-height: 100vh;
-    background-image: url(images/Library\ 2.jpg);
+    min-height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
 }
 
-section .container {
+section .containerr {
     position: relative;
     width: 800px;
     height: 500px;
@@ -299,7 +313,7 @@ section .container {
     box-shadow: 0 15px 50px rgba(0,0,0,0.1);
     overflow: hidden;
 }
-section .container .user {
+section .containerr .user {
     position: absolute;
     top: 0;
     left: 0;
@@ -308,7 +322,7 @@ section .container .user {
     display: flex;
 }
 
-section .container .user .imgBx {
+section .containerr .user .imgBx {
     position: relative;
     width: 50%;
     height: 100%;
@@ -316,7 +330,7 @@ section .container .user .imgBx {
     transition: 0.5s;
 }
 
-section .container .user .imgBx img {
+section .containerr .user .imgBx img {
     position: absolute;
     top: 0;
     left: 0;
@@ -325,7 +339,7 @@ section .container .user .imgBx img {
     object-fit: cover;
 }
 
-section .container .user .formBx {
+section .containerr .user .formBx {
     position: relative;
     width: 50%;
     height: 100%;
@@ -337,7 +351,7 @@ section .container .user .formBx {
     transition: 0.5s;
 }
 
-section .container .user .formBx form  h2 {
+section .containerr .user .formBx form  h2 {
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
@@ -348,7 +362,7 @@ section .container .user .formBx form  h2 {
     color: #555555;
 }
 
-section .container .user .formBx form input {
+section .containerr .user .formBx form input {
     position: relative;
     width: 100%;
     padding: 10px;
@@ -363,7 +377,7 @@ section .container .user .formBx form input {
     font-weight: 300;
 }
 
-section .container .user .formBx form input[type="submit"] {
+section .containerr .user .formBx form input[type="submit"] {
     max-width: 100px;
     background: #677eff;
     color: #fff;
@@ -374,7 +388,7 @@ section .container .user .formBx form input[type="submit"] {
     transition: 0.5sec;
 }
 
-section .container .user .formBx form .signup {
+section .containerr .user .formBx form .signup {
     position: relative;
     margin-top: 20px;
     font-size: 12px;
@@ -384,33 +398,33 @@ section .container .user .formBx form .signup {
     font-weight: 600;
 }
 
-section .container .user .formBx form .signup a {
+section .containerr .user .formBx form .signup a {
     font-weight: 600;
     text-decoration: none;
     color: #677eff;
 }
 
-section .container .singupBx {
+section .containerr .singupBx {
     pointer-events: none;
 }
 
-section .container.active .singupBx {
+section .containerr.active .singupBx {
     pointer-events: initial;
 }
 
-section .container .singupBx .formBx {
+section .containerr .singupBx .formBx {
     left: 100%;
 }
 
-section .container.active .singupBx .formBx {
+section .containerr.active .singupBx .formBx {
     left: 0;
 }
 
-section .container .singupBx .imgBx {
+section .containerr .singupBx .imgBx {
     left: -100%;
 }
 
-section .container.active .singupBx .imgBx {
+section .containerr.active .singupBx .imgBx {
     left: 0;
 }
 
@@ -418,32 +432,113 @@ section .container.active .singupBx .imgBx {
 
 
 
-section .container .singinBx .formBx {
+section .containerr .singinBx .formBx {
     left: 0;
 }
 
-section .container.active .singinBx .formBx {
+section .containerr.active .singinBx .formBx {
     left: 100%;
 }
 
-section .container .singinBx .imgBx {
+section .containerr .singinBx .imgBx {
     left: 0;
 }
 
-section .container.active .singinBx .imgBx {
+section .containerr.active .singinBx .imgBx {
     left: -100%;
 }
 
 @media (max-width: 60rem) {
-    section .container {
+    section .containerr {
         max-width: 400px;
     }
 
-    section .container .imgBx {
+    section .containerr .imgBx {
         display: none;
     }
 
-    section .container .user .formBx {
+    section .containerr .user .formBx {
         width: 100%;
     }
 }
+
+/*-----------Add Book----------------*/
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  input[type=int]{
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .addbook {
+    width: 30%;  
+    margin-top: 6%;
+    margin-left: 30%;  
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(150, 213, 216) 0%, rgba(36,152,176,1));
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+  .sbtn{
+      width: 100px;
+  }
+
+  .label{
+      font-weight: bolder;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */ 
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  
