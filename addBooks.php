@@ -38,7 +38,10 @@
 
 	<body>
 		<div class="head">
-			<a ><img src="images/Logo.png" width="125px" ></a>
+			<a ><img src="images/Logo2.png" width="125px" ></a>
+			<div class="header">
+			    <a class="cta" href="logout.php"><button>Logout</button></a>
+            </div>
 		</div>
 		<br />
 
@@ -60,7 +63,7 @@
 				</form>
 				<br />
 				<br />
-				<a href="adminhome.php" class="link">Go Back</a>
+				<a href="adminhome.php" class="link">&#11164;Go Back</a>
 				<br />
 				<br />
 

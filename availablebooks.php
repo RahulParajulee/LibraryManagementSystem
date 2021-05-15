@@ -21,7 +21,7 @@
 
 	<body>
 		<div class="head">
-					<a ><img src="images/Logo.png" width="125px" ></a>
+					<a ><img src="images/Logo2.png" width="125px" ></a>
 				</div>
 		<br />
 

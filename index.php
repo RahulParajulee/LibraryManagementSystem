@@ -12,13 +12,13 @@
 	<body>
    
 	   <div class="logo">
-		   <a><img src="images/Logo.png" width="125px" ></a>
+		   <a><img src="images/Logo2.png" width="125px" style="margin-left: 50px;"></a>
 	   </div>
 	   <div class="col">
-		   <a href="admin.php" class="btn">Admin &#10137;</a>
+		   <a href="admin.php" class="btn">Admin &#10148;</a>
 	   </div>
 	   <div class="col">
-		   <a href="student.php" class="btn">Student &#10137;</a>
+		   <a href="student.php" class="btn">Student &#10148;</a>
 	   </div>
    
 </body>

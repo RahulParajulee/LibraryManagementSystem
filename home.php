@@ -25,6 +25,9 @@
 	<body>
 		<div class="head">
 			<a ><img src="images/Logo.png" width="125px" ></a>
+			<div class="header">
+			    <a class="cta" href="logout.php"><button>Logout</button></a>
+            </div>
 		</div>
 		<br />
 
@@ -38,7 +41,7 @@
 				<br />
 				<table border="0" class="table" cellpadding="10" cellspacing="10">
 					<tr><td><a href="issueBook.php" class="Command">Issue Book</a></td><td><a href="request.php" class="Command">Request New Books</a></td></tr>
-					<tr><td><a href="availablebooks.php" class="Command">Available Books</a></td></td><td><a href="logout.php" class="Command">Logout</a></td></tr>
+					<tr><td><a href="availablebooks.php" class="Command">Available Books</a></td></td></tr>
 				</table>
 				<br />
 				<br />

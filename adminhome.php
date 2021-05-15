@@ -24,8 +24,12 @@
 
 	<body>
 		<div class="head">
-			<a ><img src="images/Logo.png" width="125px" ></a>
+			<a ><img src="images/Logo2.png" width="125px" ></a>
+			<div class="header">
+			    <a class="cta" href="logout.php"><button>Logout</button></a>
+            </div>
 		</div>
+		
 		<br />
 
 		<div align="center">
@@ -40,7 +44,6 @@
 					<tr><td><a href="addBooks.php" class="Command">Add Books</a></td>
 					<td><a href="bookRequests.php" class="Command">Books Requests</a></td></tr>
 					<td><a href="issue.php" class="Command">Book Issue</a></td>
-					<td><a href="logout.php" class="Command">Logout</a></td>
 				</table>
 				<br />
 				<br />

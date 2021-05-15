@@ -41,7 +41,10 @@
 
 	<body>
 		<div class="head">
-			<a ><img src="images/Logo.png" width="125px" ></a>
+			<a ><img src="images/Logo2.png" width="125px" ></a>
+			<div class="header">
+			   <a href="index.php"><button>Main Page</button></a>
+            </div>
 		</div>
 		<br />
 
@@ -63,7 +66,6 @@
 				</form>
 				<br />
 				<br />
-				<a href="index.php" class="link">Main Page</a>
 				<br />
 				<br />
 			</div>
