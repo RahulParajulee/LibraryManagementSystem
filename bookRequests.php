@@ -50,12 +50,12 @@
 				<br />
 				<br />
 
-				<span class="SubHead">Books Request From Students</span>
+				<span class="SubHead">Books Request by Students</span>
 				<br />
 				<br />
 
 				<table border="0" class="table" cellpadding="10" cellspacing="10">
-					<tr class="labels" style="text-decoration:underline;"><th>Book Name</th><th>Author</th><th>Requested by<br>(Student ID) </th></tr>
+					<tr class="labels" style="text-decoration:underline;"><th>Book Name</th><th>Author</th><th>Student ID</th></tr>
 					<?php
 						$x=mysqli_query($set,"SELECT * FROM request");
 						while($y=mysqli_fetch_array($x))

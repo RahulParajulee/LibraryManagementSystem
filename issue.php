@@ -50,12 +50,12 @@
 				<br />
 				<br />
 
-				<span class="SubHead">Books Issued by Students</span>
+				<span class="SubHead">Books Borrowed by Students</span>
 				<br />
 				<br />
 
 				<table border="0" class="table" cellpadding="10" cellspacing="10">
-					<tr class="labels" style="text-decoration:underline;"><th>Book Name</th><th>Author</th><th>Issued By<br>Student ID</th><th>Date</th><th>Return</th></tr>
+					<tr class="labels" style="text-decoration:underline;"><th>Book Name</th><th>Author</th><th>Student ID</th><th>Date</th><th>Return</th></tr>
 					<?php
 						$x=mysqli_query($set,"SELECT * FROM issue");
 						while($y=mysqli_fetch_array($x))

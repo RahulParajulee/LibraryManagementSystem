@@ -54,7 +54,7 @@
 				<br />
 				<br />
 
-				<span class="SubHead">Issue Book</span>
+				<span class="SubHead">Borrow Book</span>
 				<br />
 				<br />
 				<form method="post" action="">
@@ -72,7 +72,7 @@
 							}
 						?>
 						</select></td></tr>
-						<tr><td colspan="2" align="center"><input type="submit" value="ISSUE" class="fields" /></td></tr>
+						<tr><td colspan="2" align="center"><input type="submit" value="Borrow" class="fields" /></td></tr>
 					</table>
 				</form>
 				<br />

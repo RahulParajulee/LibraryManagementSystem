@@ -43,7 +43,7 @@
 				<table border="0" class="table" cellpadding="10" cellspacing="10">
 					<tr><td><a href="addBooks.php" class="Command">Add Books</a></td>
 					<td><a href="bookRequests.php" class="Command">Books Requests</a></td></tr>
-					<td><a href="issue.php" class="Command">Book Issue</a></td>
+					<td><a href="issue.php" class="Command">Borrowed Books</a></td>
 				</table>
 				<br />
 				<br />
