@@ -1,9 +1,11 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 /* CSS Document */
 body
 {
-	background-image:url(images/a.jpg);
+	background-image:url(../LMS/images/C.jpg);
 	margin:0px;
+	background-size: cover;
 }
 
 .head
@@ -14,12 +16,34 @@ body
 	margin-left:50px;
 }
 
+.header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 30px 10%;
+}
+
+button {
+	padding: 9px 25px;
+	color: #00203fff;
+	background-color: #adefd1ff;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover {
+	background-color: rgb(144, 204, 177);
+	;
+}
+
 #wrapper
 {
 	width:80%;
 	border-radius:10px;
-	border:2px solid #FFF;
-	background-color:rgba(0,0,0,0.7);
+	border:2px solid rgb(255, 255, 255);
+	background-color:rgba(0, 0, 0, 0.7);
 }
 
 .SubHead
@@ -32,23 +56,30 @@ body
 {
 	font-family:"Trebuchet MS";
 	font-size:16px;
-	color:rgb(51, 224, 255);
+	color:#adefd1ff;
 }
 .fields
 {
 	font-family:"Trebuchet MS";
 	font-size:14px;
-	color:rgb(51, 224, 255);
+	color:#adefd1ff;
 	border-radius:5px;
 	padding:4px 6px;
-	border:1px solid rgb(51, 224, 255);
+	border:1px solid rgb(255, 255, 255);
 	background-color:transparent;
 }
+
+.fields:hover {
+	background-color: rgb(59, 63, 61);
+}
+
+
 .col .btn{
+	font-style: inherit;
     text-align: center;
     display: inline-flex;
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(170,216,218,1) 0%, rgba(36,152,176,1) 59%);
+    background: linear-gradient(45deg, rgb(134, 221, 195) 0%, rgba(170,216,218,1) 0%, rgb(87, 151, 132) 59%);
     color: #fff;
     padding: 50px 50px;
     margin: 30px;
@@ -59,7 +90,7 @@ body
 }
 .btn:hover{
     background: rgb(2,0,36);
-    background: linear-gradient(4deg, rgba(2,0,36,1) 0%, rgba(225,221,209,1) 0%, rgba(36,152,176,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(225,221,209,1) 0%, rgba(36,152,176,1) 100%);
 }
 .drop{
 	font-weight: bolder;
@@ -68,8 +99,8 @@ body
 .table
 {
 	border-radius:5px;
-	padding:0px 5px;
-	border:1px solid rgb(51, 224, 255);
+	padding:10px 20px 10px;
+	border:1px solid rgb(255, 255, 255);
 	background-color:transparent;
 }
 a.link:link{font-family:"Segoe UI";font-size:16px;color:#FFF;text-decoration:none;}
@@ -79,7 +110,7 @@ a.link:hover{font-family:"Segoe UI";font-size:16px;color:rgb(51, 224, 255);text-
 .msg
 {
 	font-family:"Segoe UI";
-	color:#6F6;
+	color:rgb(252, 8, 0);
 	font-size:13px;
 }
 a.Command:link{text-decoration:none;font-family:"Segoe UI";color:#CFC;font-size:16px;padding:5px 7px;border:2px solid rgb(51, 224, 255);border-radius:5px;}
