@@ -110,9 +110,11 @@ a.link:hover{font-family:"Segoe UI";font-size:16px;color:rgb(51, 224, 255);text-
 .msg
 {
 	font-family:"Segoe UI";
-	color:rgb(252, 4, 4);
+	color:rgb(7, 255, 28);
 	font-size:13px;
 }
+
+
 a.Command:link{text-decoration:none;font-family:"Segoe UI";color:#CFC;font-size:16px;padding:5px 7px;border:2px solid rgb(51, 224, 255);border-radius:5px;}
 a.Command:active{text-decoration:none;font-family:"Segoe UI";color:#CFC;font-size:16px;padding:5px 7px;border:2px solid rgb(51, 224, 255);border-radius:5px;}
 a.Command:visited{text-decoration:none;font-family:"Segoe UI";color:#CFC;font-size:16px;padding:5px 7px;border:2px solid rgb(51, 224, 255);border-radius:5px;}

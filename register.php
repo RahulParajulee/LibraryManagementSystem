@@ -51,7 +51,7 @@
 				<form method="post" action="">
 					<table border="0" cellpadding="4" cellspacing="4" class="table">
 						<tr><td colspan="2" align="center" class="msg"><?php echo $msg;?></td></tr>
-						<tr><td class="labels">Name : </td><td><input type="text" name="name" class="fields" placeholder="Enter Full name" required="required" size="25" /></td></tr>
+						<tr><td class="labels">Name : </td><td><input type="text" name="name" class="fields" placeholder="Enter Full name" required="required" onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode==32)" /></td></tr>
 						<tr><td class="labels">Email ID : </td><td><input type="email" name="email" class="fields" placeholder="Enter Email ID" required="required" size="25" /></td></tr>
 						<tr><td class="labels">Sem : </td>
 						<td>
@@ -77,7 +77,7 @@
 						</select>
 						</td></tr>
 						<tr><td class="labels">Student ID : </td><td><input type="text" name="sid" class="fields" placeholder="Enter Student ID" required="required" size="25" /></td></tr>
-						<tr><td class="labels">Password : </td><td><input type="password" name="pass" class="fields" placeholder="Enter Password" required="required" size="25" /></td></tr>
+						<tr><td class="labels">Password : </td><td><input type="password" name="pass" class="fields" placeholder="Enter Password" required="required" pattern=".{5,12}" /></td></tr>
 						<tr><td colspan="2" align="center"><input type="submit" value="Register" class="fields" /></td></tr>
 					</table>
 				</form><br />
